@@ -16,4 +16,4 @@
       shell: /bin/bash -c "cp /mnt/tmp/Server/Linux/Agent-Core-RedHat_EL6-9.5.3-5954.x86_64.rpm /tmp"
       
     - name: install the rpm
-      shell: rpm -i /tmp/Agent-Core-RedHat_EL7-9.6.2-7723.x86_64.rpm
+      shell: rpm -i /tmp/Agent-Core-RedHat_EL6-9.5.3-5954.x86_64.rpm
