@@ -13,7 +13,7 @@
       shell: /bin/bash -c "mount -t cifs //nl19fs002/install -o username=_svc_compadd,domain=G-STAR.RAW,password=R@wadd00 /mnt/tmp"
       
     - name: copy the rpm file to /tmp
-      shell: /bin/bash -c "cp /mnt/tmp/Server/Linux/Agent-Core-RedHat_EL6-9.5.3-5954.x86_64.rpm /tmp"
+      shell: /bin/bash -c "cp /mnt/tmp/Server/Linux/Agent-Core-RedHat_EL6-9.6.2-7690.x86_64.rpm /tmp"
       
     - name: install the rpm
-      shell: rpm -i /tmp/Agent-Core-RedHat_EL6-9.5.3-5954.x86_64.rpm
+      shell: rpm -i /tmp/Agent-Core-RedHat_EL6-9.6.2-7690.x86_64.rpm
